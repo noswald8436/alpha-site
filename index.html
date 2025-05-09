@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Portfolio</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Cybersecurity Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#tools">Tools & Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h2>Welcome to My Cybersecurity Portfolio</h2>
+                <p>Discover my projects and insights into the world of cybersecurity.</p>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>Welcome! I'm an enthusiastic cybersecurity specialist with a passion for safeguarding digital assets and networks.</p>
+            <h3>Background</h3>
+            <p>With a background in computer science, I am currently pursuing advanced studies in cybersecurity. My professional experience includes working in network engineering, where I apply my skills to secure and optimize network infrastructures.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li>Network Security</li>
+                <li>Application Security</li>
+                <li>Ethical Hacking</li>
+                <li>Incident Response</li>
+                <li>Security Compliance</li>
+            </ul>
+            <h3>Philosophy</h3>
+            <p>My approach to cybersecurity prioritizes proactive defense strategies, empowering organizations to not only defend against current threats but also anticipate and prepare for potential future challenges.</p>
+        </section>
+
+        <section id="projects" class="content-section projects-section">
+            <h2>Projects</h2>
+            <div class="project-container">
+              <div class="project-card">
+                <h3>Network Security Audit</h3>
+                <p>Conducted a comprehensive security audit of a college campus network, identifying and remediating vulnerabilities within the network configuration and endpoint protections.</p>
+                <a href="link-to-network-security-audit" target="_blank" class="project-link">Learn More</a>
+              </div>
+              <div class="project-card">
+                <h3>Vulnerability Assessment Tool Development</h3>
+                <p>Developed a custom tool to automate vulnerability assessments for web applications using Python. The tool integrates with existing CI/CD pipelines to assess security weaknesses regularly.</p>
+                <a href="link-to-vulnerability-assessment-tool" target="_blank" class="project-link">Learn More</a>
+              </div>
+              <div class="project-card">
+                <h3>Incident Response Planning</h3>
+                <p>Collaborated to develop and implement an incident response plan for a mid-sized company, minimizing impact through well-structured planning.</p>
+                <a href="link-to-incident-response-planning" target="_blank" class="project-link">Learn More</a>
+              </div>
+              <div class="project-card">
+                <h3>OWASP Juice Shop</h3>
+                <p>Explore a vulnerable web application designed for security awareness, demonstrations, and education.</p>
+                <a href="https://blueberry22.zapto.org/juiceshop/" target="_blank" class="project-link">Open Juice Shop</a>
+              </div>
+            </div>
+          </section>
+
+          <section id="tools" class="content-section tools-section">
+            <h2>Tools & Resources</h2>
+            <div class="tool-grid">
+              <div class="tool-item">
+                <img src="images/wireshark.jpg" alt="Wireshark Icon" class="tool-icon">
+                <h3>Wireshark</h3>
+                <p>A network protocol analyzer for capturing and browsing traffic running on a computer network.</p>
+                <div class="tool-links">
+                  <a href="https://www.wireshark.org/" target="_blank">Download</a> |
+                  <a href="https://www.wireshark.org/docs/" target="_blank">Documentation</a>
+                </div>
+              </div>
+              <div class="tool-item">
+                <img src="images/nmap.jpg" alt="Nmap Icon" class="tool-icon">
+                <h3>Nmap</h3>
+                <p>An open-source network scanner used for network discovery and security auditing.</p>
+                <div class="tool-links">
+                  <a href="https://nmap.org/" target="_blank">Download</a> |
+                  <a href="https://nmap.org/book/man.html" target="_blank">Documentation</a>
+                </div>
+              </div>
+              <div class="tool-item">
+                <img src="images/burp.png" alt="Burp Suite Icon" class="tool-icon">
+                <h3>Burp Suite</h3>
+                <p>An integrated platform for web application security testing, finding, and exploiting vulnerabilities.</p>
+                <div class="tool-links">
+                  <a href="https://portswigger.net/burp" target="_blank">Download</a> |
+                  <a href="https://portswigger.net/burp/documentation" target="_blank">Documentation</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <section id="special-access" class="content-section">
+            <h2>Special Access</h2>
+            <p>Please enter your credentials to access the special collection of material.</p>
+            <form id="special-access-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Access Content</button>
+            </form>
+            <div id="special-content" style="display: none;">
+                <h3>Exclusive Content</h3>
+                <p>Here you can present exclusive information and materials for authorized users only.</p>
+            </div>
+          </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cybersecurity Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
